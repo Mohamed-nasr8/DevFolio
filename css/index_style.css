@@ -1,0 +1,547 @@
+#home
+{
+    background-image: url(../imgs/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+    overflow: auto;
+
+
+
+
+}
+
+.h
+{
+    overflow: hidden;
+}
+.color
+{
+        background-color: rgba(0, 0, 0, 0.5);
+}
+#home h1
+{
+    font-size: 72px    ;
+    
+    color: white;
+}
+#home p
+{
+    font-size: 40px    ;
+    
+    color: white;
+}
+.navbar {
+    background-color: black !important;
+    color: white;
+}
+.navbar  ul li a
+{
+    font-weight: 700;
+line-height: 24px;
+}
+.navbar-brand 
+{
+    font-size:28px ;
+    line-height: 34px    ;
+    font-weight: 600;
+}
+.navbar .b
+{
+position: relative;
+}
+.b::after
+{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+background-color: white;
+    top: 90%;
+    left: 15%;
+
+
+
+}
+.navbar .c
+{
+position: relative;
+overflow: hidden;
+
+}
+.c::after
+{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+background-color: white;
+    top: 90%;
+right: 100%; ;
+    transition: all 0.3s ease-in-out ;
+    opacity: 1;
+
+}
+.c:hover::after{
+opacity: 1;
+right: 40% ;
+}
+
+slider-text h1
+{
+    color: #fff;
+	text-transform: uppercase;
+	font-size: 4rem;;
+    font-weight: 600;
+}
+.slider-text .caption-animation h2::after
+{
+    height: 100px;
+    color: #fff;
+    font-size: 3rem;
+    content: "|";
+    position: relative;
+    animation: caption 13s 1s infinite;
+}
+@keyframes caption
+{
+    0%{content: "D|";}
+    1%{content: "De|";}
+    2%{content: "Des|";}
+    4%{content: "Desi|";}
+    5%{content: "Desig|";}
+    6%{content: "Design|";}
+    8%{content: "Designe|";}
+    9%{content: "Designer|";}
+    11%{content: "Designe|";}
+    12%{content: "Design|";}
+    13%{content: "Desig|";}
+    14%{content: "Desi|";}
+    15%{content: "Des|";}
+    16%{content: "De|";}
+    18%{content: "D|";}
+
+    20%{content: "D|";}
+    21%{content: "De|";}
+    22%{content: "Dev|";}
+    23%{content: "Deve|";}
+    24%{content: "Devel|";}
+    25%{content: "Develo|";}
+    26%{content: "Develop|";}
+    27%{content: "Develope|";}
+    29%{content: "Developer|";}
+    30%{content: "Develope|";}
+    31%{content: "Develop|";}
+    32%{content: "Develo|";}
+    33%{content: "Devel|";}
+    35%{content: "Deve|";}
+    36%{content: "Dev|";}
+    37%{content: "De|";}
+    39%{content: "D|";}
+
+    40%{content: "F|";}
+    41%{content: "Fr|";}
+    42%{content: "Fre|";}
+    42%{content: "Free|";}
+    43%{content: "Freel|";}
+    44%{content: "Freela|";}
+    45%{content: "Freelan|";}
+    46%{content: "Freelanc|";}
+    47%{content: "Freelance|";}
+    49%{content: "Freelancer|";}
+    51%{content: "Freelance";}
+    52%{content: "Freelanc|";}
+    53%{content: "Freelan|";}
+    54%{content: "Freela|";}
+    55%{content: "Freel|";}
+    56%{content: "Free|";}
+    57%{content: "Fre|";}
+    59%{content: "Fr|";}
+    63%{content: "F|";}
+
+    65%{content: "P|";}
+    66%{content: "Ph|";}
+    67%{content: "Pho|";}
+    68%{content: "Phot|";}
+    69%{content: "Photo|";}
+    73%{content: "Photog|";}
+    75%{content: "Photogr|";}
+    76%{content: "Photogra|";}
+    79%{content: "Photograp|";}
+    82%{content: "Photograph|";}
+    85%{content: "Photographe|";}
+    86%{content: "Photographer|";}
+    89%{content: "Photographe|";}
+    90%{content: "Photograph|";}
+    91%{content: "Photograp|";}
+    92%{content: "Photogra|";}
+    93%{content: "Photogr|";}
+    94%{content: "Photog|";}
+    95%{content: "Photo|";}
+    96%{content: "Phot|";}
+    97%{content: "Pho|";}
+    98%{content: "Ph|";}
+    100%{content: "P|";}
+}
+
+
+
+#myabout 
+{
+    background-color: cadetblue;
+    overflow: auto;
+    border: 50px solid red;
+}
+#about .cv h5
+{
+    font-size: 32px;
+    font-weight: 500;
+    color: #1e1e1e
+    ;
+    line-height: 38px    ;
+}
+#about .cv p
+{
+    font-size: 20px;
+    font-weight: 300;
+    color: #4e4e4e;
+    line-height: 30px;
+
+
+    
+}
+.cv .a
+{
+    position: relative;
+
+}
+.a::after
+{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 3px;
+background-color: #0078FF;
+    top: 90%;
+right: 80%;}
+.o
+{
+    overflow: hidden;
+    background-color: blue;
+
+}
+#about .title-s 
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e1e1e;
+    line-height: 26px;
+}
+#about .Profile
+{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+}
+ .alla
+{
+    background-color:#F5F5F5 ;
+}
+.SERVICES h2
+{
+    font-weight: 500;
+    font-size:22 ;
+    color: #1e1e1e;
+line-height: 27px;
+
+}
+.SERVICES p
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 24px;
+}
+
+.SERVICES .icon
+{
+    height: 100px;
+    width: 100px;
+    font-size: 2.5rem;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    color: black;
+    transition: all 500ms ease;
+}
+.bor:hover .icon
+{
+    background-color: #0078FF;
+color: white;
+box-shadow: 0 0 0 10px #CDE1F8;
+
+}
+.bor
+{
+    background-color: #fff;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+
+}
+.mainh
+{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 58px;
+}
+.line
+{
+    width: 4%;
+    height: 5px;
+    background-color: #0078FF;
+}
+.SERVICES
+{
+    background-color:#F5F5F5 ;
+
+}
+
+#WORK
+{
+    background-image: url(../imgs/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#WORK .work-icon
+{
+   
+    text-align: center;
+    box-shadow: 0 0 0 8px #CDE1F8;
+    color: white;
+    padding: 20px 20px !important; 
+}
+ .layer
+{
+    background-color: rgb(0, 120, 255,0.7);
+    height: 100%;
+    
+
+}
+#WORK p
+{
+    color: white;
+    font-weight: 400;
+    line-height: 24px;
+}
+#WORK .x
+{
+    font-weight: 400;
+    line-height: 48px;
+    font-size: 32px;
+}
+#PORTFOLIO .card span
+{
+    color:#0078ff !important ;
+}
+#PORTFOLIO .card p
+{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+}
+#PORTFOLIO .card img
+{
+transition: all 1s;
+}
+
+.sc:hover img
+{    transform: scale(1.3);
+
+
+
+}
+#PORTFOLIO .card .sc
+{
+    overflow: hidden;
+}
+#PORTFOLIO
+{
+    background-color:#F5F5F5 ;
+   
+}
+
+#customer .carousel-caption 
+{
+    position: static;
+}
+#customer .carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#customer .carousel-caption h5
+{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+}
+#customer .carousel-caption p
+{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+#customer
+{
+background-image: url(../imgs/overlay-bg.jpg);
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+#bolg .card  h3
+{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    transition:  all 0.5s;
+}
+
+#bolg .card a
+{
+    color: black;
+    text-decoration: none;
+}
+.card a:hover  h3 
+{
+    color:#0078ff !important ;
+}
+
+
+#bolg .card .sm-card
+{
+    width: 85px;
+    height: 30px;
+    background-color:  #0078ff;;
+    position: absolute;
+    left: 40%;
+    top: 53%;
+    border-radius: 4px;
+padding-top: 8px;
+
+
+}
+#bolg .card .sm-card p
+{
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+
+
+}
+#bolg
+{
+    background-color:#F5F5F5 ;
+   
+}
+#CONTACT  h5
+{
+    font-size: 32px;
+    font-weight: 500;
+    color: #1e1e1e
+    ;
+    line-height: 38px    ;
+}
+  .btn 
+{
+    padding: 10px 24px;
+    background: #0078ff;
+color: white;
+transition: all 0.5s;
+}
+.btn:hover 
+{
+    background-color: #3393FF;
+    color: white;
+    box-shadow: 0 0 0 5px #CDE1F8;
+  
+}
+#CONTACT  p
+
+{
+    
+    font-size: 20px;
+    font-weight: 300;
+    color: #4e4e4e;
+    line-height: 30px;
+}
+#CONTACT  .loc
+
+{
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+    line-height: 32px;
+}
+#CONTACT .social-icon i
+{
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 9px;
+    transition: all 500ms ease;
+
+}
+#CONTACT .social-icon i:hover
+{
+    background: #0078ff;
+    box-shadow: 0 0 0 3px #CDE1F8;
+    color: white;
+    cursor: pointer;
+
+}
+#CONTACT .con
+{
+    background-color: white;
+  
+
+}
+.lg-1ine{
+    width: 22%;
+    height: 3px;
+    background-color: #0078FF;
+}
+#CONTACT 
+{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+    
+
+.footer
+{
+    background-color: #0062D3 !important;
+    color: white;
+}
+.footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.coll
+{
+    background-color: rgb(0, 120, 255,0.7);
+    height: 100%;
+
+}
